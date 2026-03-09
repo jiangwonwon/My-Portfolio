@@ -2,12 +2,15 @@ import React, { useMemo, useState } from "react";
 import "./App.css";
 import zooImage from "./assets/zoo.jpg";
 import madouImage from "./assets/madou.jpg";
+import snakeImage from "./assets/snake.jpg";
 
 // ====== 作品資料（直接改這裡） ======
 const PROJECTS = [
   {
     id: 1,
     title: "木柵動物園 - 霍斯辦案",
+    link: "https://daron0811.github.io/tpzoohorse25/06/",
+    // link: "https://www.zoo.gov.taipei/News_Content.aspx?n=1040A0BA6520CA48&s=B1F4BC6325D130FE&sms=67D26248A5724B42",
     desc: "木柵動物園的互動式展覽，使用 Cocos Creator 開發。",
     tags: ["Cocos", "TypeScript", "UI/UX"],
     image: zooImage,
@@ -17,15 +20,15 @@ const PROJECTS = [
     title: "心靈 Madou-In-Mind",
     link: "https://madou-mind.vercel.app/inmind",
     desc: "臺南市政府衛生局的心理健康宣導心靈測驗網站。",
-    tags: ["React"],
+    tags: ["React", "Tailwind", "GitHub"],
     image: madouImage,
   },
   {
     id: 3,
-    title: "手機 App 介面設計",
-    desc: "跨平台 UI 設計與 Prototype 製作。",
-    tags: ["Mobile", "Prototype"],
-    image: "https://picsum.photos/600/400?3",
+    title: "貪食蛇遊戲",
+    desc: "在經典貪食蛇遊戲中，加入吃了會扣分的食物還會換位置，增加遊戲挑戰性。",
+    tags: ["HTML", "CSS", "JavaScript", "Canvas"],
+    image: snakeImage,
   },
 ];
 
