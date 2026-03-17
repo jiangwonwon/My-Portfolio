@@ -26,6 +26,7 @@ const PROJECTS = [
   {
     id: 3,
     title: "貪食蛇遊戲",
+    link: "https://jiangwonwon.github.io/snakeGame/",
     desc: "在經典貪食蛇遊戲中，加入吃了會扣分的食物還會換位置，增加遊戲挑戰性。",
     tags: ["HTML", "CSS", "JavaScript", "Canvas"],
     image: snakeImage,
